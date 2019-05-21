@@ -3,7 +3,10 @@ package com.kattis.goesToDoc;
 public class Main {
 
     public static void main(String[] args){
-        isGoing("h", "ah");
+        String a = "aah";
+        String b = "ah";
+
+        isGoing(a, b);
     }
 
     public static void isGoing(String a, String b){
