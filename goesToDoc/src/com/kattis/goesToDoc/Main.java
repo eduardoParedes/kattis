@@ -3,14 +3,16 @@ package com.kattis.goesToDoc;
 public class Main {
 
     public static void main(String[] args){
-        System.out.println(isGoing("aaah", "aaaaaaah"));
+        isGoing("h", "ah");
     }
 
-    public static boolean isGoing(String a, String b){
+    public static void isGoing(String a, String b){
         if(a.length() < b.length()){
-            return false;
+            System.out.println("no");
         }
         else
-            return true;
+            System.out.println("go");
     }
+
+
 }
